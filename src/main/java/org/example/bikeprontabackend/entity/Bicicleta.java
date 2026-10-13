@@ -3,7 +3,7 @@ package org.example.bikeprontabackend.entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "bicicletas")
+@Table(name = "bicicletas", schema = "public")
 public class Bicicleta {
 
     @Id
